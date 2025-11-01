@@ -499,6 +499,7 @@ padding-left: 10px;
     justify-content: space-between;
     align-items: center;
     padding: 1px 5px;
+    width: 100%;
   }
 
   .nav-btn {
@@ -557,6 +558,14 @@ padding-left: 10px;
 align-items: center;
 }
 
+.footer_bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text1 {
+  text-align: left;
+}
 
 } 
 
