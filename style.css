@@ -569,12 +569,27 @@ align-items: center;
 
 .footer_bottom {
   display: block;
-  text-align: center;
 padding: 20px;
+
+}
+
+.footer-text1 {
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid black;
 }
 
 .footer-text2 {
   display: block;
+  text-align: left;
+}
+
+.workout {
+    border-bottom: 1px solid black;
+}
+
+.copy {
+  display: none;
 }
 } 
 
