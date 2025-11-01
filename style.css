@@ -567,6 +567,15 @@ align-items: center;
   text-align: left;
 }
 
+.footer_bottom {
+  display: block;
+  text-align: center;
+padding: 20px;
+}
+
+.footer-text2 {
+  display: block;
+}
 } 
 
 
