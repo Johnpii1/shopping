@@ -1,0 +1,599 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+}
+
+header {
+position: fixed;
+  top: 0% !important;
+  width: 100% !important;
+  height: 4rem;
+  grid-area: header;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 94, 0, 0.781),
+    rgba(255, 255, 255, 0.229)
+  );
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  padding: 15px 25px;
+}
+
+.logo {
+  margin: 10px;
+height: auto;
+width: 65px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0 0 2px rgba(255, 215, 0, 0.5);
+  cursor: pointer;
+}
+
+li:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+background: linear-gradient(135deg, #ff6f0079, #ffd64f8c);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding: 20px 35px;
+  gap: 20px;
+}
+
+.hero-image {
+    width: 60%;
+height: 100%;
+margin-top: 3.5%;
+padding-right: 50px;
+}
+
+.hero-text, h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+.hero-text, p {
+      text-align: center;
+      font-size: 1rem;
+        margin: 20px;
+}
+
+
+.signup-btn {
+  left: 40%;
+  border-radius: 10px;
+  width: 10rem;
+  height: 5vh;
+  text-align: left !important;
+  padding: 5px;
+  transition: transform 0.4s ease-in;
+}
+
+/* .loff {
+  padding-left: 0px;
+} */
+
+/* .signup-btn:hover{
+  animation: wiggle 0.4s ease-in-out;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: -10px;
+} */
+
+/* @keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+    padding-right: 50px;
+  }
+  25% {
+    transform: rotate(7deg);
+    transform: scale(1.1);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+  75% {
+    transform: rotate(7deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#bie {
+  font-size: 1rem;
+  color: white;
+}*/
+
+.page2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.product_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0px 0px;
+    justify-content: space-around;
+}
+
+#products:nth-child(5), 
+#products:nth-child(6), 
+#products:nth-child(7), 
+#products:nth-child(8){
+    margin-bottom: 20px;
+}
+
+#products{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 12px 10px 0px 10px;
+    align-items: center;
+    height: 23rem;
+    width: 7rem;
+    flex: 1 1 13rem;
+    background-color: white;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#products:hover{
+  border-radius: 8px;
+    box-shadow: 0px 0px 10px rgb(128, 125, 125);
+    transform: translateY(-5px);
+}
+.pro{
+    height: 18rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(224, 223, 223);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.labels{
+  margin: 10px 0px 0px 0px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.star{
+  margin: -30px 0px 0px 0px;
+  height: 80px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.price{
+  margin: -30px 0px 0px 0px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+#cart_btn{
+  margin: 30px 10px 10px 10px;
+  border-radius: 8px;
+  width: 13rem;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  pointer-events: none;
+  align-self: center;
+  justify-content: center;
+  opacity: 0;
+cursor: pointer;
+}
+
+#products:hover #cart_btn{
+  opacity: 1;
+  transition: transform 0.3s ease;
+  pointer-events: all;
+}
+
+#pro1 {
+    background-image: url(./image/Product1.png);
+}
+
+#pro2 {
+    background-image: url(./image/Brown\ Jacket.png);
+}
+
+#pro3 {
+    background-image: url(./image/Thermacool\ Fridge.jpg);
+}
+
+#pro4 {
+    background-image: url(./image/watch2.jpg);
+}
+
+#pro5 {
+    background-image: url(./image/Designers\ shirt.png);
+}
+
+#pro6 {
+    background-image: url(./image/Redmi\ note\ 15.webp);
+}
+
+#pro7 {
+    background-image: url(./image//Men\ shirt.png);
+  
+}
+
+#pro8 {
+    background-image: url(./image/Shoe5.png);
+}
+
+
+/* Footer */
+.footer1 {
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  display: grid;
+  grid-template-rows: repeat(2) 1fr;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "footer_head"
+    "footer_bottom";
+}
+
+.footer_head {
+  grid-area: footer_head;
+  background-color: rgb(63, 62, 62);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 20px;
+  justify-content: space-around;
+  font-family: Momo Trust Display Static;
+}
+
+.logo2 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: rgb(201, 134, 10);
+  align-self: center;
+  display: flex;
+  margin: 30px auto;
+}
+
+.foot:nth-child(2) {
+  flex-grow: 1;
+}
+
+.foot2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot2 h5 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: left;
+}
+
+.top1 {
+    font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  text-align: left;
+}
+
+.check {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+  margin: 10px 0;
+}
+
+.check p {
+  margin: 10px;
+  text-align: left;
+ display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.check_cookies {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 50px;
+}
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-section p {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.foot h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: Momo Trust Display Static;
+}
+
+.footer_bottom {
+  background-color: rgb(120, 120, 121);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 30px;
+}
+
+.footer-text1 {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-text1 > h2 {
+  color: white;
+  font-size: 25px;
+  margin: 20px;
+  font-family: Libre Baskerville  Static;
+}
+
+.contact-info > span  {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 20px;
+  font-family: Roboto Condensed;
+}
+
+.smg-icon {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  color: white;
+  margin: 20px;
+}
+
+.copy {
+  margin-top: 10vh;
+  font-size: 15px;
+  font-family: Roboto Condensed;
+}
+
+.footer-text2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-right: 15%;
+  gap: 30vh;
+  cursor: pointer;
+}
+
+.fi {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-family: Libre Baskerville Static;
+}
+
+.workout > p {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto Condensed;
+  margin: 10px;
+  display: flex;
+}
+
+.live-chart > p {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto Condensed;
+  display: flex;
+  margin: 10px;
+}
+
+.foot {
+  width: 340px;
+  height: 200px;
+  padding: 15px;
+}
+
+
+.mail-sub {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+}
+
+.mail-sub input::placeholder {
+padding-left: 10px;
+}
+
+.sub-mail {
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid rgb(197, 197, 197);
+}
+
+.sub-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+
+
+ @media (min-width: 300px) and (max-width: 550px) {
+ body {
+  overflow-x: hidden;
+ }
+  
+  .nav {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5px;
+  }
+
+  .nav-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1%;
+  }
+
+
+
+  .hero-text, h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+.hero-text, p {
+      text-align: center;
+      font-size: 14px;
+        margin: 20px;
+}
+
+.hero-image {
+  display: none;
+}
+
+
+
+  .hero {
+        flex-direction: column;
+        text-align: center;
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+      }
+
+      /* Footer*/
+.footer1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_head {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+align-items: center;
+}
+
+
+} 
+
+
+@media (min-width: 550px) and (max-width: 850px) {
+body {
+  overflow-x: hidden;
+}
+
+  .nav-btn {
+        display: none;
+    }
+
+     .hero {
+   
+        height: 650px;
+        width: 100%;
+        margin-top: 50px;
+      }
+}
+
+
+@media (min-width: 850px) and (max-width: 1550px) {
+   body {
+    overflow-x: hidden;
+   }
+  
+  .nav-btn {
+        display: none;
+    }
+
+   
+
+}
+
+
+@media  (min-width: 1550px) {
+    .nav-btn {
+        display: none;
+    }
+} 
