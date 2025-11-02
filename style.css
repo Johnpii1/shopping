@@ -474,6 +474,10 @@ cursor: pointer;
   color: white;
 }
 
+.copy2 {
+  color: white;
+}
+
 
 .mail-sub {
   display: flex;
@@ -552,14 +556,19 @@ padding-left: 10px;
   display: none;
 }
 
-
-
   .hero {
         flex-direction: column;
         text-align: center;
         height: 400px;
         width: 100%;
         margin-top: 50px;
+      }
+
+      /*Product*/
+      .product_box {
+        display: flex;
+      
+        grid-template-rows: 1fr 1fr;
       }
 
       /* Footer*/
@@ -674,10 +683,9 @@ body {
         margin-top: 50px;
       }
 
-      
-
-
-      
+      .copy2 {
+  display: none;
+}
       }
 
 
@@ -699,9 +707,9 @@ body {
         margin-top: 50px;
       }
 
-     
-
-      
+     .copy2 {
+  display: none;
+}
 }
 
 
@@ -710,8 +718,7 @@ body {
         display: none;
     }
 
-    
-
-      
-
+    .copy2 {
+  display: none;
+}
 } 
