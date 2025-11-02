@@ -611,6 +611,7 @@ p {
 
   .footer_bottom {
     display: block;
+    height: auto;
   }
 
   .contact-info {
@@ -666,6 +667,10 @@ p {
 
   .copy {
     display: none;
+  }
+
+  .copy2 > p {
+  margin-top: 25%;
   }
 
   .fi {
@@ -838,6 +843,10 @@ p {
 
   .copy {
     display: none;
+  }
+
+  .copy2 > p {
+  margin-top: 25%;
   }
 
   .fi {
@@ -1024,6 +1033,10 @@ p {
 
   .copy {
     display: none;
+  }
+
+.copy2 > p {
+  margin-top: 25%;
   }
 
   .fi {
