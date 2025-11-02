@@ -861,7 +861,7 @@ p {
   }
 }
 
-@media (min-width: 480px) and (max-width: 600px) {
+@media (min-width: 440px) and (max-width: 600px) {
   body {
     overflow-x: hidden;
   }
