@@ -579,7 +579,7 @@ p {
 
   #cart_btn {
     margin: 30px 10px 10px 10px;
-    width: 5rem;
+    width: 9rem;
     height: 30px;
     padding: 5px;
     display: flex;
@@ -590,11 +590,17 @@ p {
     opacity: 0;
   }
 
-  .product_box button,
-  a {
-    font-size: 10px;
-    font-weight: 400;
+  .product_box button,a {
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .bi-cart4 {
+    font-size: 15px;
   }
   /* Footer*/
   .footer1 {
@@ -731,6 +737,10 @@ p {
     margin: 15px;
   }
 
+  .bi-arrow-right {
+    margin-left: 50%;
+  }
+
   .hero-text,
   p {
     text-align: center;
@@ -765,6 +775,19 @@ p {
     padding: 5px;
   }
 
+  #cart_btn {
+    margin: 30px 10px 10px 10px;
+    width: 9rem;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    pointer-events: none;
+    align-self: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
   
 
   .product_box button,
@@ -772,7 +795,15 @@ p {
     font-size: 10px;
     font-weight: 400;
     text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
   }
+
+.bi-cart4 {
+  font-size: 15px;
+}
+
   /* Footer*/
   .footer1 {
     display: flex;
@@ -926,6 +957,10 @@ p {
     margin-top: 50px;
   }
 
+  .bi-arrow-right {
+    margin-left: 50%;
+  }
+
   /*Product*/
   .product_box {
     display: grid;
@@ -934,19 +969,16 @@ p {
   }
 
   #products {
-    
     width: 105%;
     left: -2.5%;
     overflow-x: hidden; /* prevents horizontal scroll */
     position: relative;
-  
-
 
   }
 
   #cart_btn {
     margin: 30px 10px 10px 10px;
-    width: 5rem;
+    width: 10rem;
     height: 30px;
     padding: 5px;
     display: flex;
@@ -962,7 +994,15 @@ p {
     font-size: 10px;
     font-weight: 400;
     text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
   }
+
+  .bi-cart4 {
+    font-size: 15px;
+  }
+
   /* Footer*/
   .footer1 {
     display: flex;
@@ -1076,6 +1116,51 @@ p {
   .copy2 {
     display: none;
   }
+
+  /*footer*/
+  .footer_head {
+    height: 250px;
+  }
+
+   .footer-text2 {
+  display: flex;
+  justify-content: space-between;
+ padding: 1px 5px;
+  margin-right: 10%;
+  gap: 60px;
+  cursor: pointer;
+margin-bottom: 10vh;
+}
+  
+.fi {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: Libre Baskerville Static;
+}
+
+.fi2 {
+  color: white;
+  font-size: 25px;
+
+  font-family: Libre Baskerville Static;
+}
+
+.workout > p {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto Condensed;
+  margin: 10px;
+text-align: left;
+}
+
+.live-chart > p {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto Condensed;
+  text-align: left;
+}
+
 }
 
 @media (min-width: 850px) and (max-width: 1550px) {
@@ -1096,6 +1181,8 @@ p {
   .copy2 {
     display: none;
   }
+
+  
 }
 
 @media (min-width: 1550px) {
