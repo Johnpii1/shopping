@@ -941,14 +941,16 @@ p {
   }
 
   #products {
-    width: 220px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    left: -5%;
-    padding: 3px 5px;
+  
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    gap: 10px; /* optional */
+    padding: 5px;
   }
+}
+
+  
 
   #cart_btn {
     margin: 30px 10px 10px 10px;
@@ -1054,7 +1056,7 @@ p {
   .text-2 {
     border-top: 0.95px solid black;
   }
-}
+
 
 
 
