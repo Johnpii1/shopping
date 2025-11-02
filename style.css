@@ -502,7 +502,7 @@ p {
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
-    body {
+  body {
     overflow-x: hidden;
   }
 
@@ -681,7 +681,187 @@ p {
   }
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 430px) and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5px;
+    width: 100%;
+  }
+
+  .nav-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1%;
+  }
+
+  .hero-text,
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+  }
+
+  .hero-text,
+  p {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  /*Product*/
+  .product_box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #products {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    left: -5%;
+    padding: 3px 5px;
+  }
+
+  #cart_btn {
+    margin: 30px 10px 10px 10px;
+    width: 5rem;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    pointer-events: none;
+    align-self: center;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  .product_box button,
+  a {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+  }
+  /* Footer*/
+  .footer1 {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+  }
+
+  .footer_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_bottom {
+    display: block;
+  }
+
+  .contact-info {
+    display: block;
+  }
+
+  .contact-info > span {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 3px;
+  }
+
+  .footer_bottom {
+    display: block;
+  }
+
+  .smg-icon {
+    display: flex;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 3px;
+  }
+
+  .footer-text1 {
+    display: block;
+    text-align: left;
+  }
+
+  .footer-text1 h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 3px;
+  }
+
+  .footer-text2 {
+    display: block;
+    border-top: 0.95px solid black;
+  }
+
+  .workout p > a {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 3px;
+    margin-top: 20px;
+  }
+
+  .live-chart p > a {
+    text-align: left;
+    margin-left: 3px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .copy {
+    display: none;
+  }
+
+  .fi {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .fi2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .text-2 {
+    border-top: 0.95px solid black;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 600px) {
   body {
     overflow-x: hidden;
   }
@@ -751,8 +931,8 @@ p {
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    left: -10%;
-    margin-left: 7px;
+    left: -5%;
+    padding: 3px 5px;
   }
 
   #cart_btn {
