@@ -926,7 +926,7 @@ p {
   }
 
   #products {
-    width: 220px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
