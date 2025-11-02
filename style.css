@@ -504,6 +504,7 @@ p {
 @media (min-width: 300px) and (max-width: 300px) {
   body {
     overflow-x: hidden;
+    width: 100%;
   }
 
   .nav {
@@ -684,6 +685,7 @@ p {
 @media (min-width: 300px) and (max-width: 430px) {
   body {
     overflow-x: hidden;
+    width: 100%;
   }
 
   .nav {
@@ -864,6 +866,7 @@ p {
 @media (min-width: 430px) and (max-width: 600px) {
     body {
     overflow-x: hidden;
+    width: 100%;
   }
 
   .nav {
@@ -1047,6 +1050,7 @@ p {
 @media (min-width: 600px) and (max-width: 850px) {
   body {
     overflow-x: hidden;
+    width: 100%;
   }
 
   .nav-btn {
