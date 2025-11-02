@@ -501,7 +501,7 @@ p {
   cursor: pointer;
 }
 
-@media (min-width: 300px) and (max-width: 300px) {
+@media (min-width: 300px) and (max-width: 400px) {
   body {
     overflow-x: hidden;
     width: 100%;
@@ -565,19 +565,16 @@ p {
 
   /*Product*/
   .product_box {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+  flex-direction: column;
   }
 
   #products {
-    width: 174.5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    left: -10%;
-    margin-left: 5px;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    gap: 10px; /* optional */
+    padding: 5px;
   }
 
   #cart_btn {
@@ -756,27 +753,14 @@ p {
   }
 
   #products {
-    width: 195px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    left: -5%;
-    padding: 3px 5px;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    gap: 10px; /* optional */
+    padding: 5px;
   }
 
-  #cart_btn {
-    margin: 30px 10px 10px 10px;
-    width: 5rem;
-    height: 30px;
-    padding: 5px;
-    display: flex;
-    gap: 10px;
-    pointer-events: none;
-    align-self: center;
-    justify-content: center;
-    opacity: 0;
-  }
+  
 
   .product_box button,
   a {
@@ -941,16 +925,15 @@ p {
   }
 
   #products {
+    
+    width: 105%;
+    left: -2.5%;
+    overflow-x: hidden; /* prevents horizontal scroll */
+    position: relative;
   
-    width: 100%;
-    left: 0;
-    justify-content: center;
-    gap: 10px; /* optional */
-    padding: 5px;
-  }
-}
 
-  
+
+  }
 
   #cart_btn {
     margin: 30px 10px 10px 10px;
@@ -1056,7 +1039,7 @@ p {
   .text-2 {
     border-top: 0.95px solid black;
   }
-
+}
 
 
 
