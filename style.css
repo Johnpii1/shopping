@@ -396,7 +396,7 @@ cursor: pointer;
   font-family: Libre Baskerville  Static;
 }
 
-.contact-info > span  {
+.contact-info  > span  {
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -435,6 +435,13 @@ cursor: pointer;
   font-family: Libre Baskerville Static;
 }
 
+.fi2 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 40px;
+  font-family: Libre Baskerville Static
+}
+
 .workout > p {
   color: white;
   font-size: 15px;
@@ -455,6 +462,16 @@ cursor: pointer;
   width: 340px;
   height: 200px;
   padding: 15px;
+}
+
+.live-chart a {
+  text-decoration: none;
+  color: white;
+}
+
+.workout a {
+    text-decoration: none;
+  color: white;
 }
 
 
@@ -555,88 +572,88 @@ padding-left: 10px;
 .footer_head {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 align-items: center;
 }
 
 .footer_bottom {
-  display: flex;
-
+  display: block;
 }
 
 .contact-info{
-  display: none;
+  display: block;
+  font-size: 13px;
 }
 
-.moblie-info {
-  display: flex;
-  flex-direction: column;
-padding-left: 25px;
-}
-
-.moblie-info span {
-  font-size: 12px;
-  margin: 5px;
+.contact-info > span {
+ font-size: 13px;
   text-align: left;
+  margin-left: 3px;
 }
 
-.footer-text1 {
-  font-size: 12px;
-  margin-bottom: 100px;
-}
 
 .footer_bottom {
-  display: flex;
-justify-content: space-between;
-padding: 1px 10px 10px;
+  display: block;
 }
 
 .smg-icon {
-  display: none;
+  display: flex;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 3px;
 }
 
 .footer-text1 {
   display: block;
+  text-align: left;
 }
 
 
 
 .footer-text1 h2 {
-  font-size: 15px;
-}
-
-
-.footer-text2 {
-  display: flex;
-  justify-content: space-between;
-  gap: 15px 50px;
-  margin-top: 35px;
-  margin-left: 20px;
-}
-
-.workout p {
-    font-size: 12px;
+  font-size: 18px;
   text-align: left;
   margin-left: 3px;
 }
 
-.live-chart p {
-  display: none;
+
+.footer-text2 {
+  display: block;
+border-top: 0.95px solid black;
 }
 
-.moblie-live p {
- color: white;
- font-size: 12px;
- margin: 10px;
- text-align: left;
+.workout p {
+    font-size: 13px;
+  text-align: left;
+  margin-left: 3px;
+ margin-top: 20px;
 }
+
+.live-chart p {
+  text-align: left;
+  margin-left: 3px;
+ font-size: 13px;
+ margin-top: 20px;
+}
+
 
 .copy {
   display: none;
 }
 
 .fi {
-  font-size: 15px;
+  font-size: 18px;
+ margin-bottom: 15px;
+}
+
+.fi2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+.text-2 {
+    border-top: 0.95px solid black;
 }
 } 
 
@@ -657,16 +674,13 @@ body {
         margin-top: 50px;
       }
 
-      .moblie-info {
-        display: none;
+      
+
+
+      
       }
 
 
-      .moblie-live {
-        display: none;
-      }
-
-}
 
 
 @media (min-width: 850px) and (max-width: 1550px) {
@@ -685,14 +699,9 @@ body {
         margin-top: 50px;
       }
 
-      .moblie-info {
-        display: none;
-      }
+     
 
-
-      .moblie-live {
-        display: none;
-      }
+      
 }
 
 
@@ -701,12 +710,8 @@ body {
         display: none;
     }
 
-    .moblie-info {
-        display: none;
-      }
+    
 
-      .moblie-live {
-        display: none;
-      }
+      
 
 } 
