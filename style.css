@@ -532,6 +532,10 @@ p {
     margin-left: -1%;
   }
 
+  .hero {
+    width: 100%;
+  }
+
   .hero-text,
   h1 {
     text-align: center;
@@ -713,6 +717,10 @@ p {
     margin-left: -1%;
   }
 
+  .hero {
+    width: 100%;
+  }
+
   .hero-text,
   h1 {
     text-align: center;
@@ -892,6 +900,10 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-left: -1%;
+  }
+
+  .hero {
+    width: 100%;
   }
 
   .hero-text,
