@@ -926,7 +926,7 @@ p {
   }
 
   #products {
-    width: 210px;
+    width: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1044,7 +1044,7 @@ p {
 
 
 
-@media (min-width: 700px) and (max-width: 850px) {
+@media (min-width: 600px) and (max-width: 850px) {
   body {
     overflow-x: hidden;
   }
