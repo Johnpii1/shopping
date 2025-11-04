@@ -90,9 +90,6 @@ p {
   margin: 20px;
 }
 
-
-
-
 .signup-btn {
   position: relative;
   border-radius: 10px;
@@ -105,7 +102,7 @@ p {
   transition: transform 0.4s ease-in;
 }
 
-.signup-btn:hover{
+.signup-btn:hover {
   animation: wiggle 0.4s ease-in-out;
   background-color: black;
   color: white;
@@ -136,33 +133,34 @@ p {
   color: white;
 }
 
-        input{
-            display: flex;
-            flex-direction: column;
-            margin: 5px 0px 15px 0px;
-            border: none;
-            width: 100%;
-            padding: 10px 0px 5px 10px;
-            border-bottom: 1px solid rgb(126, 125, 125);
-            outline: none;
-            background-color: rgba(253, 252, 251, 0.075);
-            border-radius: 8px;
-        }
-        
-        label{
-            margin: 0px 0px 5px 0px;
-            font-size: 1rem;
-            font-weight: bold;
-        }
-        .flex_gender{
-            flex-direction: row;
-            display: inline-flex;
-            gap: 8px;
-        }
-        input::placeholder{
-            opacity: 0.7;
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px 15px 0px;
+  border: none;
+  width: 100%;
+  padding: 10px 0px 5px 10px;
+  border-bottom: 1px solid rgb(126, 125, 125);
+  outline: none;
+  background-color: rgba(253, 252, 251, 0.075);
+  border-radius: 8px;
+}
 
-        }
+label {
+  margin: 0px 0px 5px 0px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.flex_gender {
+  flex-direction: row;
+  display: inline-flex;
+  gap: 8px;
+}
+
+input::placeholder {
+  opacity: 0.7;
+}
 
 #form {
   position: absolute;
@@ -196,8 +194,6 @@ p {
     opacity: 1;
   }
 }
-
-
 
 .page2 {
   display: flex;
@@ -629,6 +625,40 @@ p {
     margin-left: -1%;
   }
 
+  /*Sign Up*/
+  .signup-btn {
+    font-size: 0.8em;
+    width: 18vh;
+    font-weight: bold;
+  }
+
+  /*Input form*/
+  input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px 15px 0px;
+  border: none;
+  width: 100%;
+  padding: 10px 0px 5px 10px;
+  border-bottom: 1px solid rgb(126, 125, 125);
+  outline: none;
+  background-color: rgba(253, 252, 251, 0.075);
+  border-radius: 8px;
+}
+
+#form label {
+display: flex;
+justify-content: left;
+align-items: center;
+}
+
+.flex_gender input {
+  flex-direction: row;
+  display: inline-flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
   /*Hero*/
   .hero {
     width: 100%;
@@ -676,7 +706,7 @@ p {
     width: 100%;
     left: 0;
     justify-content: center;
-    gap: 10px; /* optional */
+    gap: 10px;
     padding: 5px;
   }
 
