@@ -644,21 +644,38 @@ input::placeholder {
   outline: none;
   background-color: rgba(253, 252, 251, 0.075);
   border-radius: 8px;
+ 
 }
 
 #form label {
 display: flex;
-justify-content: left;
-align-items: center;
+padding-bottom: 10px;
 }
 
 .flex_gender input {
   flex-direction: row;
   display: inline-flex;
-  gap: 10px;
+  gap: 5px;
   cursor: pointer;
 }
 
+#form {
+  position: absolute;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.247);
+  backdrop-filter: blur(30px);
+  height: fit-content;
+  width: 20rem;
+  top: 15%;
+  right: 17%;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(250, 114, 3);
+  border: 1px solid rgb(253, 252, 252);
+  animation: slideDown 1s ease forwards;
+  z-index: 1;
+  cursor: pointer;
+}
   /*Hero*/
   .hero {
     width: 100%;
