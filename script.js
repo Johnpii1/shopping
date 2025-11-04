@@ -6,3 +6,7 @@ const menuBtn = document.getElementById("menu-btn");
   });
 
 
+function showSignUp(){
+    const showForm = document.getElementById('form');
+    showForm.style.display = showForm.style.display === 'none' ? 'inline-block' : 'none';
+}

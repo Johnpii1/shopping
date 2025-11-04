@@ -34,7 +34,8 @@
                 <a class="header_links contact">
                     <li>Contact</li>
                 </a>
-                <a href="#"><i class="bi bi-bag" style="font-size: 1.2rem; text-decoration: none; color: black;"></i></a>
+                <a href="#"><i class="bi bi-bag"
+                        style="font-size: 1.2rem; text-decoration: none; color: black;"></i></a>
             </div>
 
             <div class="nav-btn" id="menu-btn">
@@ -67,6 +68,35 @@
 
             <button class="signup-btn" onclick="showSignUp()"><b class="loff">Sign Up</b><i id="bie"
                     class="bi bi-arrow-right"></i></button>
+        </div>
+        <!--Sign up-->
+         <div id="form" style="display: none;">
+                    <form action="" method="post">
+            <label for="surname">Surname:</label><br>
+            <input type="text" id="username" name="name" placeholder="Surname..." required>
+
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" placeholder="First name(Optional)">
+
+            <label for="email">Email</label><br>
+            <input type="email" id="userEmail" placeholder="Email..." required>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="userpass" title="Enter password" placeholder="Password..." required>
+
+            <label for="password">Confirm Password:</label><br>
+            <input type="password" id="confirmpass" placeholder="Confirm Password...">
+
+            <p class="flex_gender">
+            <input type="radio" id="male" name="gender" style="margin-top: 0;" value="male"required>
+            <label for="gender" class="gen malee">Male</label>
+
+            <input type="radio" id="female" name="gender" style="margin-top: 0;" value="female">
+            <label for="gender" class="gen femalee">Female</label>
+            </p>
+            <br/>
+            <input type="submit" style="background: linear-gradient(to right, orange, rgba(247, 245, 245, 0.274)); color: white; border-radius: 10px;" onclick="checkAge()" value="Sign In">
+                    </form>
         </div>
         <img class="hero-image" src="./Background2-removebg-preview.png" alt="Lady wearing orange cloth">
     </section>
@@ -272,4 +302,5 @@
 
 </body>
 <script src="script.js"></script>
+
 </html>
