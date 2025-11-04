@@ -1,7 +1,8 @@
-const menuBtn = document.querySelector('.nav-btn');
-const nav = document.querySelector('.nav');
+const menuBtn = document.getElementById("menu-btn");
+  const navMenu = document.getElementById("navMenu");
 
-menuBtn.addEventListener('click', () => {
-  console.log('Menu button clicked'); // 🧠 test if JS works
-  nav.classList.toggle('show');
-});
+  menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+  });
+
+
