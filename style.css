@@ -179,6 +179,7 @@ p {
   border: 1px solid rgb(253, 252, 252);
   animation: slideDown 1s ease forwards;
   z-index: 1;
+  cursor: pointer;
 }
 
 @keyframes slideDown {
@@ -196,10 +197,7 @@ p {
   }
 }
 
-#bie {
-  font-size: 1rem;
-  color: white;
-}
+
 
 .page2 {
   display: flex;
