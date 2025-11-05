@@ -629,7 +629,9 @@ input::placeholder {
   .signup-btn {
     font-size: 0.8em;
     width: 18vh;
+    height: 40px;
     font-weight: bold;
+    align-items: center;
   }
 
   /*Input form*/

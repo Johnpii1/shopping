@@ -1,77 +1,174 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgba(245, 222, 179, 0.466);
-    width: 100%;
+  background-color: rgba(245, 222, 179, 0.466);
+  width: 100%;
 }
 
 h1 {
-    text-align: center;
-    margin: 20px;
-    font-size: 50px;
-    font-weight: 700;
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 p {
-    text-align: center;
-    margin: 20px;
-    font-size: 25px;
-    font-weight: lighter;
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
+/*box*/
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+/*box1*/
+.box1 {
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box2 {
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*Image*/
+.team-card img {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  background-color: wheat;
+}
+
+.team-card {
+  padding: 20px;
+  text-align: center;
+}
+
+/*Image text*/
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.team-card p {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.text-4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*Button*/
+.btn-join {
+    margin-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color: rgba(7, 2, 2, 0.25);
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+}
 
 
 /*Mobile view*/
 @media (max-width: 768px) {
-    h1 {
-        text-align: center;
+  h1 {
+    text-align: center;
     margin: 20px;
     font-size: 30px;
     font-weight: 700;
-    }
-}
+  }
+
 
 p {
+  text-align: center;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+/*Image box*/
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*button*/
+.btn-join {
+    margin-top: 40px;
+    padding-bottom: 10px;
     text-align: center;
-    margin: 20px;
-    font-size: 15px;
-    font-weight: lighter;
+}
 }
 
 /*Ipad view*/
 @media (min-width: 820px) and (max-width: 1180px) {
-h1 {
-     text-align: center;
+  h1 {
+    text-align: center;
     margin: 20px;
     font-size: 50px;
     font-weight: 700;
-}
+  }
 
-p {
+  p {
     text-align: center;
     margin: 20px;
     font-size: 20px;
     font-weight: 500;
-}
+  }
 }
 
 /*Desktop view*/
 @media (min-width: 768px) {
-    h1 {
-     text-align: center;
+  h1 {
+    text-align: center;
     margin: 20px;
     font-size: 50px;
     font-weight: 700;
-}
+  }
 
-p {
+  p {
     text-align: center;
     margin: 20px;
     font-size: 20px;
     font-weight: lighter;
-}
+  }
 }
