@@ -582,7 +582,7 @@ input::placeholder {
     right: 24vh;
     background-color: white;
     width: 50%;
-    height: 100vh;
+    height: 50vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.949);
     border-radius: 8px;
     z-index: 10;
