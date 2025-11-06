@@ -59,11 +59,12 @@ header {
   cursor: pointer;
 }
 
-li:hover {
+.li:hover {
   color: rgba(18, 15, 15, 0.87);
   transition: 0.3s;
 }
 
+/*Hero*/
 .hero {
   display: flex;
   justify-content: space-between;
