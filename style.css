@@ -621,8 +621,8 @@ input::placeholder {
     display: none;
     position: absolute;
     background-color: whitesmoke;
-    width: 45%;
-    height: 20vh;
+    width: 90%;
+    height: 27vh;
     left: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.949);
     border-radius: 8px;
@@ -634,7 +634,7 @@ input::placeholder {
     text-decoration: none;
     text-align: left;
     margin: 5px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
   }
 
