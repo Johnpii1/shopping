@@ -915,7 +915,7 @@ input::placeholder {
     width: 60px;
   }
 
-  nav ul {
+  nav  {
     gap: 20px;
   }
 
@@ -931,7 +931,7 @@ input::placeholder {
     display: none;
     position: absolute;
     background-color: whitesmoke;
-    width: 20%;
+    width: 30%;
     height: 20vh;
     right: 25%;
     top: 100%;
@@ -1051,8 +1051,8 @@ input::placeholder {
     display: none;
     position: fixed;
     background-color: whitesmoke;
-    width: 10%;
-    height: 30vh;
+    width: 20%;
+    height: 35vh;
     right: 18%;
     top: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.949);

@@ -6,9 +6,7 @@ const menuBtn = document.getElementById("menu-btn");
     navMenu.classList.toggle("show");
   });
 
-  
-
-  const storebtn = document.getElementById("storebtn");
+const storebtn = document.getElementById("storebtn");
 const storage = document.getElementById("storage");
 
 // Mobile click
@@ -21,8 +19,10 @@ if (window.innerWidth < 1024) {
 // Desktop hover
 if (window.innerWidth >= 1024) {
   storebtn.addEventListener("mouseenter", () => storage.classList.add("show"));
-  storebtn.addEventListener("mouseleave", () => storage.classList.remove("show"));
+  storebtn.addEventListener("click", () => storage.classList.remove("show"));
 }
+
+
 
 
 /*Login form*/
