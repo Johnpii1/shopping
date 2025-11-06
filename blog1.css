@@ -50,3 +50,25 @@ p {
   font-weight: 600;
   font-size: 18px;
 }
+
+
+@media (max-width: 768px) {
+    h1 {
+         text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    }
+
+    p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog-meta  {
+    text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+}
