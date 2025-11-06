@@ -56,19 +56,19 @@ p {
     h1 {
          text-align: center;
     margin-top: 20px;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 27px;
+    font-weight: 800;
     }
 
     p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .blog-meta  {
     text-align: center;
   margin-top: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 }
