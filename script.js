@@ -14,22 +14,6 @@ const menuBtn = document.getElementById("menu-btn");
     storage.classList.toggle("show");
   });
 
-  
-/*Dropdown for store*/
-  const store =document.getElementById("storebtn");
-  const menu =document.getElementById("storage");
-const togglHover = (e) =>{
-  if (window.innerWidth >= 768 && window.innerWidth <= 1024) {
-    storage.onmouseover = () => (storage.style.display = "block");
-    storebtn.onmouseout = () => (storage.style.display = "none");
-  }else {
-    storebtn.onmouseover = null;
-    storebtn.onmouseout = null;
-  }
-};
-
-togglHover();
-window.addEventListener("resize", togglHover);
 
 /*Login form*/
 function showSignUp(){
