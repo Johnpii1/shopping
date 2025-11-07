@@ -920,13 +920,11 @@ input::placeholder {
     gap: 20px;
   }
 
-  nav ul li a {
+  nav .li,a {
     font-size: 1rem;
+    color: red;
   }
 
-  .signup-btn {
-    align-items: center;
-  }
 
   .contents {
     display: none;
@@ -966,6 +964,10 @@ input::placeholder {
   .contents.show {
     display: block;
   }
+  
+  .nav-btn {
+    display: none;
+  }
 
   /*Hero*/
   .hero {
@@ -988,6 +990,9 @@ input::placeholder {
     cursor: pointer;
   }
 
+.signup-btn {
+    align-items: center;
+  }
   /*Footer*/
   .footer_head {
     height: 300px;
@@ -1023,9 +1028,7 @@ input::placeholder {
   }
 
 
-  .nav-btn {
-    display: none;
-  }
+  
 
   .live-chart a {
     margin: 5px;
