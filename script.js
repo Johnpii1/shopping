@@ -18,8 +18,12 @@ if (window.innerWidth < 1024) {
 
 // Desktop hover
 if (window.innerWidth >= 1024) {
-  storebtn.addEventListener("mouseenter", () => storage.classList.add("show"));
-  storebtn.addEventListener("click", () => storage.classList.remove("show"));
+  storebtn.addEventListener("mouseenter", () => { 
+    storage.classList.add("show");
+  });
+  storebtn.addEventListener("click", () => {
+    storage.classList.remove("show");
+  });
 }
 
 
